@@ -33,3 +33,5 @@ if (@available(iOS 17.0, *)) {
 https://github.com/zcsoft/WKCookieTest
 
 欢迎有兴趣解决这个问题的同学继续提供解决方案。
+
+# 最后，重点，如果页面需要嵌入wkwebview使用，那就尽量不要使用cookie。
