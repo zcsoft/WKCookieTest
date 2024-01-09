@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cookie Test</title>
+    <style>
+        /* 增大按钮的样式 */
+        button {
+            padding: 10px 20px; /* 按钮的内边距 */
+            font-size: 20px; /* 文本大小 */
+            margin: 10px 0; /* 外边距 */
+            cursor: pointer; /* 鼠标悬停时的指针形状 */
+        }
+
+        /* 增大显示文本的样式 */
+        #cookie-value {
+            font-size: 20px; /* 文本大小 */
+            color: #333; /* 文本颜色 */
+            padding: 10px; /* 内边距 */
+            border: 1px solid #ddd; /* 边框样式 */
+            margin-top: 20px; /* 外边距 */
+        }
+    </style>
+</head>
+<body>
+    <button id="set-cookie">Set Cookie</button>
+    <button id="show-cookie">Show Cookie</button>
+    <p id="cookie-value">Cookie value will be shown here</p>
+
+    <script>
+        // 设置 Cookie 的函数
+        function setCookie(name, value, days) {
+            var expires = "";
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days*24*60*60*1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+        }
+
+        // 获取指定名称的 Cookie 的函数
+        function getCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for(var i=0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0)==' ') c = c.substring(1,c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+            }
+            return null;
+        }
+
+        // 当点击“设置 Cookie”按钮时
+        document.getElementById('set-cookie').addEventListener('click', function() {
+            var currentDate = new Date().toISOString();
+            setCookie('tkey', currentDate, 7); // 设置 Cookie，有效期 7 天
+        });
+
+        // 当点击“显示 Cookie”按钮时
+        document.getElementById('show-cookie').addEventListener('click', function() {
+            var cookieValue = getCookie('tkey');
+            document.getElementById('cookie-value').textContent = cookieValue || 'No cookie found';
+        });
+    </script>
+</body>
+</html>

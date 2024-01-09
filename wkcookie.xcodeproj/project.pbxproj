@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4287E5532B4C2DF400128523 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4287E5522B4C2DF400128523 /* AppDelegate.m */; };
+		4287E5562B4C2DF400128523 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4287E5552B4C2DF400128523 /* SceneDelegate.m */; };
+		4287E5592B4C2DF400128523 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4287E5582B4C2DF400128523 /* ViewController.m */; };
+		4287E55C2B4C2DF400128523 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4287E55A2B4C2DF400128523 /* Main.storyboard */; };
+		4287E55E2B4C2DF500128523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4287E55D2B4C2DF500128523 /* Assets.xcassets */; };
+		4287E5612B4C2DF500128523 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4287E55F2B4C2DF500128523 /* LaunchScreen.storyboard */; };
+		4287E5642B4C2DF500128523 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4287E5632B4C2DF500128523 /* main.m */; };
+		4287E56E2B4C2DF500128523 /* wkcookieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4287E56D2B4C2DF500128523 /* wkcookieTests.m */; };
+		4287E5782B4C2DF500128523 /* wkcookieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4287E5772B4C2DF500128523 /* wkcookieUITests.m */; };
+		4287E57A2B4C2DF500128523 /* wkcookieUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4287E5792B4C2DF500128523 /* wkcookieUITestsLaunchTests.m */; };
+		4287E5882B4C2F3500128523 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4287E5872B4C2F3500128523 /* WebViewController.m */; };
+		4287E58C2B4C3A0E00128523 /* tcookie.html in Resources */ = {isa = PBXBuildFile; fileRef = 4287E58B2B4C3A0E00128523 /* tcookie.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4287E56A2B4C2DF500128523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4287E5462B4C2DF400128523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4287E54D2B4C2DF400128523;
+			remoteInfo = wkcookie;
+		};
+		4287E5742B4C2DF500128523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4287E5462B4C2DF400128523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4287E54D2B4C2DF400128523;
+			remoteInfo = wkcookie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4287E54E2B4C2DF400128523 /* wkcookie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wkcookie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4287E5512B4C2DF400128523 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4287E5522B4C2DF400128523 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4287E5542B4C2DF400128523 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4287E5552B4C2DF400128523 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4287E5572B4C2DF400128523 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4287E5582B4C2DF400128523 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4287E55B2B4C2DF400128523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4287E55D2B4C2DF500128523 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4287E5602B4C2DF500128523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4287E5622B4C2DF500128523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4287E5632B4C2DF500128523 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4287E5692B4C2DF500128523 /* wkcookieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wkcookieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4287E56D2B4C2DF500128523 /* wkcookieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wkcookieTests.m; sourceTree = "<group>"; };
+		4287E5732B4C2DF500128523 /* wkcookieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wkcookieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4287E5772B4C2DF500128523 /* wkcookieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wkcookieUITests.m; sourceTree = "<group>"; };
+		4287E5792B4C2DF500128523 /* wkcookieUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wkcookieUITestsLaunchTests.m; sourceTree = "<group>"; };
+		4287E5862B4C2F3500128523 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		4287E5872B4C2F3500128523 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		4287E58B2B4C3A0E00128523 /* tcookie.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tcookie.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4287E54B2B4C2DF400128523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4287E5662B4C2DF500128523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4287E5702B4C2DF500128523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4287E5452B4C2DF400128523 = {
+			isa = PBXGroup;
+			children = (
+				4287E5502B4C2DF400128523 /* wkcookie */,
+				4287E56C2B4C2DF500128523 /* wkcookieTests */,
+				4287E5762B4C2DF500128523 /* wkcookieUITests */,
+				4287E54F2B4C2DF400128523 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4287E54F2B4C2DF400128523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4287E54E2B4C2DF400128523 /* wkcookie.app */,
+				4287E5692B4C2DF500128523 /* wkcookieTests.xctest */,
+				4287E5732B4C2DF500128523 /* wkcookieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4287E5502B4C2DF400128523 /* wkcookie */ = {
+			isa = PBXGroup;
+			children = (
+				4287E5512B4C2DF400128523 /* AppDelegate.h */,
+				4287E5522B4C2DF400128523 /* AppDelegate.m */,
+				4287E5542B4C2DF400128523 /* SceneDelegate.h */,
+				4287E5552B4C2DF400128523 /* SceneDelegate.m */,
+				4287E5572B4C2DF400128523 /* ViewController.h */,
+				4287E5582B4C2DF400128523 /* ViewController.m */,
+				4287E58B2B4C3A0E00128523 /* tcookie.html */,
+				4287E5862B4C2F3500128523 /* WebViewController.h */,
+				4287E5872B4C2F3500128523 /* WebViewController.m */,
+				4287E55A2B4C2DF400128523 /* Main.storyboard */,
+				4287E55D2B4C2DF500128523 /* Assets.xcassets */,
+				4287E55F2B4C2DF500128523 /* LaunchScreen.storyboard */,
+				4287E5622B4C2DF500128523 /* Info.plist */,
+				4287E5632B4C2DF500128523 /* main.m */,
+			);
+			path = wkcookie;
+			sourceTree = "<group>";
+		};
+		4287E56C2B4C2DF500128523 /* wkcookieTests */ = {
+			isa = PBXGroup;
+			children = (
+				4287E56D2B4C2DF500128523 /* wkcookieTests.m */,
+			);
+			path = wkcookieTests;
+			sourceTree = "<group>";
+		};
+		4287E5762B4C2DF500128523 /* wkcookieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4287E5772B4C2DF500128523 /* wkcookieUITests.m */,
+				4287E5792B4C2DF500128523 /* wkcookieUITestsLaunchTests.m */,
+			);
+			path = wkcookieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4287E54D2B4C2DF400128523 /* wkcookie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4287E57D2B4C2DF500128523 /* Build configuration list for PBXNativeTarget "wkcookie" */;
+			buildPhases = (
+				4287E54A2B4C2DF400128523 /* Sources */,
+				4287E54B2B4C2DF400128523 /* Frameworks */,
+				4287E54C2B4C2DF400128523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wkcookie;
+			productName = wkcookie;
+			productReference = 4287E54E2B4C2DF400128523 /* wkcookie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4287E5682B4C2DF500128523 /* wkcookieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4287E5802B4C2DF500128523 /* Build configuration list for PBXNativeTarget "wkcookieTests" */;
+			buildPhases = (
+				4287E5652B4C2DF500128523 /* Sources */,
+				4287E5662B4C2DF500128523 /* Frameworks */,
+				4287E5672B4C2DF500128523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4287E56B2B4C2DF500128523 /* PBXTargetDependency */,
+			);
+			name = wkcookieTests;
+			productName = wkcookieTests;
+			productReference = 4287E5692B4C2DF500128523 /* wkcookieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4287E5722B4C2DF500128523 /* wkcookieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4287E5832B4C2DF500128523 /* Build configuration list for PBXNativeTarget "wkcookieUITests" */;
+			buildPhases = (
+				4287E56F2B4C2DF500128523 /* Sources */,
+				4287E5702B4C2DF500128523 /* Frameworks */,
+				4287E5712B4C2DF500128523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4287E5752B4C2DF500128523 /* PBXTargetDependency */,
+			);
+			name = wkcookieUITests;
+			productName = wkcookieUITests;
+			productReference = 4287E5732B4C2DF500128523 /* wkcookieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4287E5462B4C2DF400128523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4287E54D2B4C2DF400128523 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					4287E5682B4C2DF500128523 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 4287E54D2B4C2DF400128523;
+					};
+					4287E5722B4C2DF500128523 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 4287E54D2B4C2DF400128523;
+					};
+				};
+			};
+			buildConfigurationList = 4287E5492B4C2DF400128523 /* Build configuration list for PBXProject "wkcookie" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4287E5452B4C2DF400128523;
+			productRefGroup = 4287E54F2B4C2DF400128523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4287E54D2B4C2DF400128523 /* wkcookie */,
+				4287E5682B4C2DF500128523 /* wkcookieTests */,
+				4287E5722B4C2DF500128523 /* wkcookieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4287E54C2B4C2DF400128523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4287E5612B4C2DF500128523 /* LaunchScreen.storyboard in Resources */,
+				4287E55E2B4C2DF500128523 /* Assets.xcassets in Resources */,
+				4287E58C2B4C3A0E00128523 /* tcookie.html in Resources */,
+				4287E55C2B4C2DF400128523 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4287E5672B4C2DF500128523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4287E5712B4C2DF500128523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4287E54A2B4C2DF400128523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4287E5592B4C2DF400128523 /* ViewController.m in Sources */,
+				4287E5882B4C2F3500128523 /* WebViewController.m in Sources */,
+				4287E5532B4C2DF400128523 /* AppDelegate.m in Sources */,
+				4287E5642B4C2DF500128523 /* main.m in Sources */,
+				4287E5562B4C2DF400128523 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4287E5652B4C2DF500128523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4287E56E2B4C2DF500128523 /* wkcookieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4287E56F2B4C2DF500128523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4287E57A2B4C2DF500128523 /* wkcookieUITestsLaunchTests.m in Sources */,
+				4287E5782B4C2DF500128523 /* wkcookieUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4287E56B2B4C2DF500128523 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4287E54D2B4C2DF400128523 /* wkcookie */;
+			targetProxy = 4287E56A2B4C2DF500128523 /* PBXContainerItemProxy */;
+		};
+		4287E5752B4C2DF500128523 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4287E54D2B4C2DF400128523 /* wkcookie */;
+			targetProxy = 4287E5742B4C2DF500128523 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4287E55A2B4C2DF400128523 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4287E55B2B4C2DF400128523 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4287E55F2B4C2DF500128523 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4287E5602B4C2DF500128523 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4287E57B2B4C2DF500128523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4287E57C2B4C2DF500128523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4287E57E2B4C2DF500128523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9UL26JH8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = wkcookie/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = wkcookie;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linguan.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4287E57F2B4C2DF500128523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9UL26JH8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = wkcookie/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = wkcookie;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linguan.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4287E5812B4C2DF500128523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9UL26JH8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcsoft.testxet.wkcookieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wkcookie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/wkcookie";
+			};
+			name = Debug;
+		};
+		4287E5822B4C2DF500128523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9UL26JH8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcsoft.testxet.wkcookieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wkcookie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/wkcookie";
+			};
+			name = Release;
+		};
+		4287E5842B4C2DF500128523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9UL26JH8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcsoft.testxet.wkcookieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wkcookie;
+			};
+			name = Debug;
+		};
+		4287E5852B4C2DF500128523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9UL26JH8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcsoft.testxet.wkcookieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wkcookie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4287E5492B4C2DF400128523 /* Build configuration list for PBXProject "wkcookie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4287E57B2B4C2DF500128523 /* Debug */,
+				4287E57C2B4C2DF500128523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4287E57D2B4C2DF500128523 /* Build configuration list for PBXNativeTarget "wkcookie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4287E57E2B4C2DF500128523 /* Debug */,
+				4287E57F2B4C2DF500128523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4287E5802B4C2DF500128523 /* Build configuration list for PBXNativeTarget "wkcookieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4287E5812B4C2DF500128523 /* Debug */,
+				4287E5822B4C2DF500128523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4287E5832B4C2DF500128523 /* Build configuration list for PBXNativeTarget "wkcookieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4287E5842B4C2DF500128523 /* Debug */,
+				4287E5852B4C2DF500128523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4287E5462B4C2DF400128523 /* Project object */;
+}
